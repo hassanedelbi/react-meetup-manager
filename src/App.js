@@ -12,7 +12,6 @@ function App() {
 					<Route path='/' element={<AllMeetupsPage />} />
 					<Route path='/new-meetup' element={<NewMeetupPage />} />
 					<Route path='/favorites' element={<FavoritesPage />} />
-					Working
 				</Routes>
 			</Layout>
 		</FavoritesContextProvider>
